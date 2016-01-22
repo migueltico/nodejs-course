@@ -1,0 +1,5 @@
+npm install -g node-inspector
+
+usage
+node --debug <myapp>.js //normal debug
+node --debug-brk <myapp>.js //first line

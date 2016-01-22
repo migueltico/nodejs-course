@@ -1,0 +1,18 @@
+.save
+salva las entradas de la sesion actual de repl en un archivo
+
+.break
+reinicia entrada multilinea.se pierde contenido anterior
+
+.clear
+resetea el contexto repl actual.
+
+.help
+muestra comandos de repl
+
+.load
+carga una sesion 
+
+
+var repl=require('repl');
+repl.start([propmt],[stream],[eval],[useGlobal],[ignoreDefined]);
