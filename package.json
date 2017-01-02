@@ -1,0 +1,27 @@
+{
+  "name": "basics_node",
+  "version": "1.0.0",
+  "description": "ARCHIVOS DE APRENDIZAJE SOBRE NODE",
+  "main": "index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FabianNCDev/Node_Basico.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FabianNCDev/Node_Basico/issues"
+  },
+  "homepage": "https://github.com/FabianNCDev/Node_Basico#readme",
+  "dependencies": {
+    "mime": "^1.3.4",
+    "socket.io": "^1.7.1"
+  }
+}
