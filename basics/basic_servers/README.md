@@ -1,0 +1,8 @@
+- server tcp
+- server tls
+- network sockets udp/datagram
+  - teoria
+  - transfer of:
+    - binary data
+    - buffer
+    - string (unicode)
