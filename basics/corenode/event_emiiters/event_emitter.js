@@ -15,3 +15,5 @@ channel.on('error', function (error) {
 
 // emit event to test it
 channel.emit('join');
+channel.emit('data', 'que tal!');
+channel.emit('error', new Error('My error'));
