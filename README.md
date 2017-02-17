@@ -17,3 +17,5 @@ https://hackernoon.com/19-things-i-learnt-reading-the-nodejs-docs-8a2dcc7f307f#.
 
 debugeo en chrome:
 https://medium.com/@paul_irish/debugging-node-js-nightlies-with-chrome-devtools-7c4a1b95ae27#.cooco9gmc
+
+joyent node_hosting
