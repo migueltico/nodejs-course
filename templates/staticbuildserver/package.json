@@ -1,0 +1,25 @@
+{
+  "name": "staticbuildserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-scss":"node-sass --include-path scss scss/main.scss build/css/style.min.css",
+    "build-js": "browserify js/**.js>build/js/main.min.js",
+    "build": "npm run build-scss && npm run build-js",
+    "server": "npm run build && python -m SimpleHTTPServer 8080",
+    "start": "nodemon -e js,scss -x \"npm run server\" --ignore build/"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browserify": "^14.1.0",
+    "node-sass": "^4.5.0",
+    "nodemon": "^1.11.0"
+  },
+  "dependencies": {
+    "jquery": "^3.1.1"
+  }
+}

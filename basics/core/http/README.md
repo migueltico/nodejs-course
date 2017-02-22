@@ -1,3 +1,11 @@
+- basics
+
+- to run app in the background: `node app.js &`
+- to find the process: `ps -ef | grep node`
+- then kill process: `kill <processNumber>`
+
+
+
 - server tcp
 - server tls
 - network sockets udp/datagram

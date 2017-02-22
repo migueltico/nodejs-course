@@ -7,7 +7,8 @@ var paginas=[
         {route: 'otra pagina',output: function() {
           return 'Estamos en '+this.route;
         }},//agregar mas enrutamientos aqui
-        ];
+];
+
 http.createServer(function(request,response) {
   //obtengo la direccion
   var buscar=path.basename(decodeURI(request.url));
