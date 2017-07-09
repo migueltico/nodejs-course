@@ -1,6 +1,10 @@
-ARCHIVOS DE APRENDIZAJE SOBRE NODE
+## Node.js Course
 
-## Considerations about code
+## Course
+  - asynchronous nature
+  - simple server
+
+## Considerations
   - require is one of a few synchronous I/O operations availables on node
   - synchronous programming techniques: callbacks and event listeners
 
