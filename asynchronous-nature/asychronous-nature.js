@@ -1,3 +1,10 @@
+// in node you don't have to wait for a process to finish
+// you can work on external resources as
+// filesystem - hard drive
+// network - receiving request sending responses over the internet
+
+// asynchronous code is handled by "callbacks"
+
 console.log('One');
 console.log('Two');
 setTimeout(function () {

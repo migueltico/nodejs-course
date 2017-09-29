@@ -1,0 +1,11 @@
+- modules/
+  - core/
+    - os/
+    - fs/
+    - url/
+    - http/
+  - third_party/
+    - package/
+    - my-fun-proyect/
+  - own_modules/
+    - random-module/
