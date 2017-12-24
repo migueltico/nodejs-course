@@ -3,17 +3,16 @@
 ## Requirements
 - Javascript
 
-## What is Nodes?
-  Is a program that allows you to write javascript in a computer
 
 ## Course
+- enviroment
 - hello-world.js
 - modules/
+
 - asyncrhonous-nature/
   - asyncrhonous-nature.js
   - reading-file/
 - web-servers/
-- repl/
 
 ## Commands
 - to run app in the background: `node app.js &`
